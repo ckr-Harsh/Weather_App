@@ -17,7 +17,6 @@ function Weather() {
     const [tempMin, settempMin] = useState();
     const [tempMax, settempMax] = useState();
 
-    let api = '53cfbd1a20db0910cac81d316f00a977';
 
     const Place = (e)=>{
         setLoc(e.target.value);
